@@ -1,0 +1,292 @@
+/**
+Theme Name: test theme
+
+**/
+p {
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none !important;
+  color: inherit;
+}
+.navbar,
+.copyright {
+  background-color: rgb(58, 105, 136) !important;
+}
+
+.nav-item {
+  padding: 0 25px;
+  transition: 0.2s;
+}
+
+.nav-item a {
+  color: rgb(245, 245, 245);
+  transition: 0.2s;
+}
+.nav-item:hover a {
+  color: rgb(58, 105, 136);
+}
+.nav-item:hover {
+  background-color: rgb(245, 245, 245);
+}
+
+.home-link {
+  padding: 8px 25px;
+}
+.search-btn {
+  background-color: rgb(245, 245, 245);
+}
+form {
+  width: 370px;
+}
+.cnt-btn {
+  background-color: rgb(58, 105, 136);
+  color: white;
+  font-size: 14px;
+}
+.img-container img {
+  height: 270px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slider-container {
+  width: calc(100% - 1rem);
+  margin: 0 auto;
+}
+.slider {
+}
+.slider img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.slick-slide {
+  margin: 0 5px;
+}
+
+.slick-list {
+  margin: 0 -5px;
+}
+
+.shrink {
+  flex-shrink: 0;
+}
+.wp-block-image {
+  padding: 10px !important;
+  border: 1px solid black;
+}
+
+.rpwwt-widget ul li img {
+  object-fit: cover;
+  padding: 5px;
+  border: 1px solid black;
+}
+.rpwwt-post-excerpt {
+  font-size: 12px;
+  line-height: 1.2;
+}
+.rpwwt-post-title {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*  */
+
+/* 
+Theme Name: test_theme
+ */
+
+.top-bar {
+  display: flex;
+  list-style: none;
+}
+.top-bar {
+  width: 85% !important;
+  max-width: 600px !important;
+}
+.top-bar li {
+  padding: 10px 10px;
+  color: rgb(245, 245, 245);
+}
+.top-bar li:hover {
+  background-color: rgb(245, 245, 245);
+  color: rgb(58, 105, 136);
+}
+.mobile-home {
+  display: none;
+}
+
+.sub-menu {
+  list-style: none;
+  padding: 10px 0;
+  background-color: rgb(248, 249, 250);
+  display: none;
+  position: absolute;
+  width: 150px;
+  border: 1px solid rgb(222, 216, 216);
+  border-radius: 5px;
+  right: -55px;
+  top: 40px;
+  z-index: 100;
+}
+.visible {
+  display: inline-block;
+}
+.sub-menu li {
+  margin: 0;
+  color: rgb(58, 105, 136);
+}
+.sub-menu li a {
+  padding-left: 15px;
+}
+.sub-menu li:hover {
+}
+.menu-item-has-children {
+  position: relative;
+}
+.menu-top-bar-container {
+  width: 65%;
+}
+
+.search-btn {
+  background-color: rgb(248, 249, 250);
+  padding: 4px 12px;
+  border: none;
+  color: black;
+}
+.search-btn:hover {
+  background-color: rgb(248, 249, 250);
+  color: black;
+}
+input,
+.btn {
+  border-radius: 0 !important ;
+}
+.img-text {
+  background-color: rgb(58, 105, 136);
+  font-weight: 500;
+  font-size: 14px;
+  width: 100%;
+  background-color: rgb(58, 105, 136);
+}
+
+.search-form input,
+.search-form .btn {
+  height: 25px;
+}
+.auto-slider-container {
+  margin: 0 auto;
+  width: calc(100% - 1rem);
+}
+.rpwwt-widget ul li {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 10px;
+}
+
+footer {
+  background-color: rgb(232, 239, 244);
+}
+.footer-container {
+  padding: 30px 30px;
+}
+.wpcf7-form-control {
+  margin-left: unset;
+}
+.wp-block-contact-form-7-contact-form-selector * {
+  width: unset;
+}
+.copyright {
+  padding: 15px 70px;
+  color: white;
+}
+footer li {
+  font-size: 14px;
+  color: #698bc0;
+}
+.form-container {
+  order: 3;
+  /* width: 50%; */
+}
+.large-post img {
+  height: 170px;
+  object-fit: contain;
+}
+header p {
+  font-size: 14px;
+}
+.widget-btn {
+  background-color: rgb(58, 105, 136);
+  font-size: 12px;
+  color: white;
+  padding: 3px 5px;
+  margin-left: unset;
+}
+
+.fancybox-image-wrap {
+  transform: translate(495px, 80px) !important;
+  width: 930px !important ;
+  height: 777px !important;
+}
+.unsubscribe {
+  margin-top: 30px;
+}
+@media screen and (min-width: 576px) {
+  .large-post {
+    width: 48%;
+  }
+  .large-post img {
+    height: 220px;
+  }
+  .large-post img {
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 768px) {
+  .form-container {
+    order: 0;
+    width: unset;
+  }
+  .img-text {
+    font-size: 18px;
+  }
+  .auto-slider-container,
+  .slider-container {
+    width: calc(100% - 3rem);
+  }
+}
+@media screen and (min-width: 992px) {
+  .widget-btn {
+    margin-left: 8vw;
+    margin-top: 15px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .slick-slide {
+    margin: 0 30px;
+  }
+
+  .slick-list {
+    margin: 0 -30px;
+  }
+  .wp-block-contact-form-7-contact-form-selector {
+  }
+
+  .footer-container {
+    padding: 30px 70px;
+  }
+}
+
+@media screen and (min-width: 390px) {
+  .unsubscribe {
+    margin-top: 5px;
+  }
+}
